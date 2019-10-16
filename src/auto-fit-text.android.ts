@@ -10,10 +10,10 @@ export class AutoFitText extends AutoFitTextBase {
         textField.setMaxLines(1);
         textField.setSingleLine();
         textField.setMaxHeight(200);
-        textField.setTextSize(200);
+        // textField.setTextSize(200);
         textField.setMinHeight(40);
         textField.setTextAlignment(android.widget.TextView.TEXT_ALIGNMENT_CENTER);
-        
+
         me.grantland.widget.AutofitHelper.create(textField);
         return textField;
     }
